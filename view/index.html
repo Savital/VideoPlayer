@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Cold Video</title>
+    <meta name="description" content="This is cold video demonstration with custom video player"/>
+    <link rel="stylesheet" href="vendorstyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="scripts/vendorscript.js"></script>
+    <script src="scripts/video.js"></script>
+    <!--[if lt IE 9]>
+    <script>
+        $(document).ready(function() {
+            $('.control').hide();
+            $('.loading').fadeOut(500);
+            $('.caption').fadeOut(500);
+        });
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Header -->
+<header>
+    <h1>HTML5 Video Controls</h1>
+    <div id="backlinks">
+        <a href="https://mikrokapital.ru/">BACK TO MAIN PAGE &raquo;</a>
+        <a href="https://mikrokapital.ru/contacts/">Visit contacts &raquo;</a>
+    </div>
+    <div class="clearfix"></div>
+</header>
+
+<!-- Content -->
+<section id="wrapper">
+
+    <!-- Title -->
+    <h2>Demo version</h2>
+    <h3>HTML cold video</h3>
+    <div class="videoContainer">
+        <video id="myVideo" controls preload="auto" poster="assets/logo.png" width="600" height="350" >
+            <!--<source src="*.webm" type="video/webm">-->
+            <!--<source src="*.ogv" type="video/ogg">-->
+            <source src="test.mp4" type="video/mp4">
+            <!--<source src="*.3gp" type="video/3gp">-->
+            <p>Your browser does not support the video tag.</p>
+        </video>
+        <div class="caption">This is HTML5 video with custom controls</div>
+        <div class="control">
+
+            <div class="topControl">
+                <div class="progress">
+                    <span class="bufferBar"></span>
+                    <span class="timeBar"></span>
+                </div>
+                <div class="time">
+                    <span class="current"></span> /
+                    <span class="duration"></span>
+                </div>
+            </div>
+
+            <div class="btmControl">
+                <div class="btnPlay btn" title="Play/Pause video"></div>
+                <div class="btnStop btn" title="Stop video"></div>
+                <div class="spdText btn">Speed: </div>
+                <div class="btnx1 btn text selected" title="Normal speed">x1</div>
+                <div class="btnx2 btn text" title="Fast forward x3">x2</div>
+                <div class="btnx3 btn text" title="Fast forward x3">x3</div>
+                <div class="btnFS btn" title="Switch to full screen"></div>
+                <div class="btnLight lighton btn" title="Turn on/off light"></div>
+                <div class="volume" title="Set volume">
+                    <span class="volumeBar"></span>
+                </div>
+                <div class="sound sound2 btn" title="Mute/Unmute sound"></div>
+            </div>
+
+        </div>
+        <div class="loading"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navigation">
+        <ul>
+            <li class="currentbtn"><a href="#" title="cold">COLD </a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </nav>
+</section>
+
+<!-- Footer -->
+<footer>
+    <span>&copy; 2019 CompanyLogo</span>
+</footer>
+
+
+</body>
+</html>
+
