@@ -1,2 +1,2 @@
 # VideoPlayer
-JavaScript static and streaming video players
+JavaScript cold and streaming video players with client-server architecture.
