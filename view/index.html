@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Demonstration</title>
+    <meta name="description" content="This is cold video demonstration with custom video player"/>
+    <link rel="stylesheet" href="static/vendorstyle.css" />
+    <link rel="stylesheet" href="static/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="static/vendorscript.js"></script>
+    <script src="static/video.js"></script>
+    <!--[if lt IE 9]>
+    <script>
+        $(document).ready(function() {
+            $('.control').hide();
+            $('.loading').fadeOut(500);
+            $('.caption').fadeOut(500);
+        });
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Header -->
+<header>
+    <h1>HTML5 Video compare cold vs stream</h1>
+    <div id="backlinks">
+        <a href="https://mikrokapital.ru/">BACK TO MAIN PAGE &raquo;</a>
+        <a href="https://mikrokapital.ru/contacts/">Visit contacts &raquo;</a>
+    </div>
+    <div class="clearfix"></div>
+</header>
+
+<!-- Content -->
+<section id="wrapper">
+
+    <!-- Title -->
+    <h2>Demo version</h2>
+    <h3>HTML video cold vs stream</h3>
+
+    <!-- Navigation -->
+    <nav id="navigation">
+        <ul>
+            <li><a href="cold" title="cold">COLD </a></li>
+            <li><a href="stream" title="stream">STREAM </a></li>
+            <li class="currentbtn"><a href="#" title="main">MAIN </a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </nav>
+</section>
+
+<!-- Footer -->
+<footer>
+    <span>&copy; 2019 CompanyLogo</span>
+</footer>
+
+
+</body>
+</html>
+
