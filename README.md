@@ -3,8 +3,8 @@ Branches are:
 
 
 * Simple html with cold video [@dev-cold](https://github.com/Savital/VideoPlayer/tree/dev-cold)
-* Static server with cold video [@dev-cold](https://github.com/Savital/VideoPlayer/tree/dev-static_server)
-* Server with cold and streaming videos [@dev-cold](https://github.com/Savital/VideoPlayer/tree/dev-stream_and_cold)
+* Static server with cold video [@dev-static_server](https://github.com/Savital/VideoPlayer/tree/dev-static_server)
+* Server with cold and streaming videos [@dev-stream_and_cold](https://github.com/Savital/VideoPlayer/tree/dev-stream_and_cold)
 
 ## TODO
 ### BuildStatus
